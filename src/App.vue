@@ -1,7 +1,8 @@
 <template lang="pug">
   #app
     img(src='dist/logo.png')
-    h1 PlatziMusic
+    h1 Omar Music
+    h2 Selecciona un país para ver sus cantantes top.
     select(v-model="selectedCountry")
       option(v-for="country in countries" :value="country.value") {{ country.name }}
     spinner(v-show="loading")

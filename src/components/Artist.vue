@@ -1,7 +1,7 @@
 <template lang="pug">
   li
     h2: a(:href="artist.url" target="_blank") {{ artist.name }}
-    img(:src="artist.image[2]['#text']")
+    a(:href="artist.url" target="_blank"): img(:src="artist.image[2]['#text']") 
 </template>
 
 <script>
@@ -13,6 +13,11 @@ export default {
 
 <style lang="stylus" scoped>
 li
-  display block
-  margin 10px 0
+  display inline-block
+  margin 10px
+  border 2px solid #41b883
+  padding 5px
+  
+img 
+  border-radius 20px
 </style>
