@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # platzimusic
 
 > VueJS Course
@@ -20,4 +19,4 @@ For detailed explanation on how things work, consult the [docs for vue-loader](h
 =======
 # cursoVue
 Curso Vue JS
->>>>>>> c13614165f641ffa154cf5195d9ac9bc7544dc0a
+
